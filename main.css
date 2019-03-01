@@ -1,0 +1,35 @@
+h1,
+h4 {
+  text-align: center;
+}
+
+h4 {
+  margin-top: 20px;
+}
+
+.results {
+  width: 70vw;
+  height: 50vh;
+  margin: auto;
+  background-color: aliceblue;
+  display: flex;
+  flex-direction: column;
+}
+
+.results1 {
+  border-radius: 5px;
+  background-color: blue;
+  padding: 40px;
+  height: 50%;
+  box-sizing: border-box;
+}
+.result1:first-child {
+  float: left;
+}
+.results2 {
+  background-color: red;
+  color: aliceblue;
+  padding: 40px;
+  height: 50%;
+  box-sizing: border-box;
+}
